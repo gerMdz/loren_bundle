@@ -1,6 +1,6 @@
 <?php
 
-namespace KnpU\LoremIpsumBundle\DependencyInjection;
+namespace GerMdz\LoremIpsumBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;

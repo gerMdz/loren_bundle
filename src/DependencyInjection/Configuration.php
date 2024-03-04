@@ -1,6 +1,6 @@
 <?php
 
-namespace KnpU\LoremIpsumBundle\DependencyInjection;
+namespace GerMdz\LoremIpsumBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

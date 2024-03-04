@@ -1,0 +1,20 @@
+{
+  "name": "germdz/loren_ipsum_bundle",
+  "description": "Bundle inicial basic",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gerardo Montivero",
+      "email": "gerardo.montivero@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "GerMdz\\LoremIpsumBundle\\": "src"
+    }
+  }
+}
