@@ -45,7 +45,7 @@ class KnpUIpsum
     {
         $paragraphs = array();
         for ($i = 0; $i < $count; $i++) {
-            $paragraphs[] = $this->addJoy($this->getSentences($this->gauss(5.8, 1.93)));
+            $paragraphs[] = $this->addJoy($this->getSentences((int)$this->gauss(5.8, 1.93)));
         }
 
         return implode("\n\n", $paragraphs);
@@ -57,7 +57,7 @@ class KnpUIpsum
         $sentences = array();
 
         for ($i = 0; $i < $count; $i++) {
-            $wordCount = $this->gauss(16, 5.08);
+            $wordCount = (int) $this->gauss(16, 5.08);
             // avoid very short sentences
             $wordCount = $wordCount < 4 ? 4 : $wordCount;
             $sentences[] = $this->getWords($wordCount, true);

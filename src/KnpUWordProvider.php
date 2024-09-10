@@ -4,7 +4,7 @@ namespace GerMdz\LoremIpsumBundle;
 
 class KnpUWordProvider implements WordProviderInterface
 {
-    public function getWordList(): array
+    public function getListaPalabras(): array
     {
         return [
             'adorable',

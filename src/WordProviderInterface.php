@@ -9,5 +9,5 @@ interface WordProviderInterface
      *
      * @return array La lista de palabras.
      */
-    public function getWordList(): array;
+    public function getListaPalabras(): array;
 }

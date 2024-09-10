@@ -16,5 +16,13 @@
     "psr-4": {
       "GerMdz\\LoremIpsumBundle\\": "src"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GerMdz\\LoremIpsumBundle\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "symfony/phpunit-bridge": "^7.1"
   }
 }
