@@ -11,13 +11,11 @@ use GerMdz\LoremIpsumBundle\WordProviderInterface;
  */
 class KnpUIpsum
 {
-    private $unicornsAreReal;
+    private bool $unicornsAreReal;
 
-    private $minSunshine;
-    /**
-     * @var KnpUWordProvider
-     */
-    private $wordProvider;
+    private int $minSunshine;
+
+    private KnpUWordProvider $wordProvider;
 
     /**
      * @param WordProviderInterface $wordProvider
